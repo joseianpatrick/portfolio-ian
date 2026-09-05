@@ -10,7 +10,7 @@
 }
 *{box-sizing:border-box;}
 html{scroll-behavior:smooth;}
-body{margin:0;background:#000;}
+body{margin:0;background:var(--bg);}
 a{text-decoration:none;}
 ::selection{background:#0175C2;color:#fff;}
 @keyframes cup-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}

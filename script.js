@@ -9,7 +9,7 @@
     try { localStorage.setItem('cupertino-theme', theme); } catch (e) {}
   }
 
-  let initial = 'dark';
+  let initial = 'light';
   try {
     const t = localStorage.getItem('cupertino-theme');
     if (t === 'light' || t === 'dark') initial = t;
